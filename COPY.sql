@@ -17,5 +17,13 @@ COPY olist_sellers_dataset FROM 'C:/Users/Dell/OneDrive/Desktop/archive/olist_se
 COPY product_category_name_translation FROM 'C:/Users/Dell/OneDrive/Desktop/archive/product_category_name_translation.csv' DELIMITER ',' CSV HEADER;
 
 
+SELECT * FROM olist_customers_dataset;
+SELECT * FROM olist_geolocation_dataset;
 SELECT * FROM olist_order_items_dataset;
-DROP TABLE olist_order_items_dataset;
+SELECT * FROM olist_order_payments_dataset;
+SELECT * FROM olist_order_reviews_dataset;
+SELECT * FROM olist_orders_dataset;
+SELECT * FROM olist_products_dataset;
+SELECT * FROM olist_sellers_dataset;
+SELECT * FROM product_category_name_translation;
+
